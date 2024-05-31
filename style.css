@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Honk&display=swap');
+
+body {
+    font-family: "Gloria Hallelujah"; sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /* VH = 100% de la taille de l'écran (vieuwport height) */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    /* Les tailles de polices doivent être en REM */
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 8px #00000042;
+    color: rgb(219, 206, 25);
+    font-family: "Gloria Hallelujah", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    height: 500px;
+    width: 90%;
+    background: rgba(240, 225, 55, 0.622);
+    /* Centrer une boîte */
+    margin: auto;
+    border: 2px solid blue;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 7px 6px 11px 8px; color: aliceblue ;
+    padding: 15px;
+
+}
+h2 {
+    color: rgb(62, 11, 11);
+}
+
+ul {
+color: blanchedalmond;
+    
+}
